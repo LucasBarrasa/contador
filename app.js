@@ -10,10 +10,15 @@ btnaumentar.addEventListener('click', () =>{
     span.textContent = contador
 });
 
+
 btndisminuir.addEventListener('click', () =>{
-    contador--
-    span.textContent = contador
+    if (contador > 0 ){
+        contador--
+        span.textContent = contador
+    }
 });
+
+
 
 
 
