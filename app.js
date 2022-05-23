@@ -1,6 +1,6 @@
 
-const btnaumentar = document.querySelector('.aumentar');
-const btndisminuir = document.querySelector('.disminuir');
+const btnaumentar = document.querySelector('.btn.aumentar');
+const btndisminuir = document.querySelector('.btn.disminuir');
 const span = document.getElementById('span');
 
 let contador = 0;   
