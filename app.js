@@ -21,4 +21,3 @@ btndisminuir.addEventListener('click', () =>{
 
 
 
-
